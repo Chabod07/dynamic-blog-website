@@ -79,6 +79,26 @@ input, textarea {
 
 .button:hover {
     opacity: 0.9;
+    color: rgb(225, 229, 197);
+}
+
+
+.primary {
+    background: #007bff;
+    color: white;
+}
+
+.danger {
+    background: #dc3545;
+    color: white;
+}
+
+/* Images */
+.post-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
 }
 
 
