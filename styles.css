@@ -1,7 +1,26 @@
 body {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 800px;
+    line-height: 1.6;
     margin: 0 auto;
     padding: 25px;
+    background-color: rgb(151, 211, 195);
 }
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+
 
