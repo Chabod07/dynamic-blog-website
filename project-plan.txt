@@ -1,1 +1,20 @@
 Project Plan: 
+
+Pages:
+1. index.html - Homepage listing all posts
+2. new-post.html - Form to create new posts
+3. post.html - View/edit/delete individual posts
+
+Features:
+- Store posts in browser's localStorage
+- CRUD operations like delete, create etc
+- Responsive design with CSS Grid 
+- Form validation for required fields
+
+Git Strategy:
+- Main branch for production code
+- Feature branches for each major component:
+  - feature/homepage
+  - feature/new-post
+  - feature/view-edit-post
+- Pull requests for code review before merging

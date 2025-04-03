@@ -1,0 +1,204 @@
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 800px;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgb(138, 194, 222);
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+}
+
+/* Post Listing */
+.posts {
+    display: grid;
+    gap: 25px;
+}
+
+.post-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(229, 6, 6, 0.1);
+    transition: transform 0.2s;
+}
+
+
+.post-card:hover {
+    transform: translateY(-3px);
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+.button:hover {
+    opacity: 0.9;
+    color: rgb(225, 229, 197);
+}
+
+
+.primary {
+    background: #007bff;
+    color: white;
+}
+
+.danger {
+    background: #dc3545;
+    color: white;
+}
+
+/* Images */
+.post-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Tablet Styles */
+    .container {
+        padding: 0 15px;
+    }
+    
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .post-card {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Mobile Styles */
+    body {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .button-group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    input, textarea {
+        font-size: 0.9rem;
+    }
+    
+    .post-card p {
+        font-size: 0.9rem;
+    }
+    
+    .post-card img {
+        margin-top: 10px;
+    }
+}
+
+/* Larger Screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+    
+    .posts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
