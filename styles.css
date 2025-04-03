@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0 auto;
     padding: 25px;
-    background-color: rgb(151, 211, 195);
+    background-color: rgb(138, 194, 222);
 }
 
 
@@ -20,6 +20,37 @@ header {
     align-items: center;
     margin-bottom: 30px;
 }
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+}
+
+/* Post Listing */
+.posts {
+    display: grid;
+    gap: 25px;
+}
+
+.post-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(229, 6, 6, 0.1);
+    transition: transform 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
